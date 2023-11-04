@@ -6,5 +6,11 @@ window.addEventListener("load", function () {
 function surveyAnswers(e) {
   e.preventDefault();
   const typed = document.querySelector('input[name="typed"]:checked').value;
-  console.log(typed, "typed")
+
+  let results;
+  if (typed === "statically") {
+    results = "C#"
+  }
+
+  document.getElementById("output").innerText = results
 }
