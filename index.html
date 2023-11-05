@@ -19,6 +19,8 @@
       alt="general image for coding">
   </div>
   <form id="suggestor-survey">
+    <label for="userNameInput">Please enter your name</label>
+    <input id="userNameInput" type="text"></br>
     <p>Do you prefer statically-typed or dynamically-typed languages?</p>
     <label>
       <input type="radio" name="typed" value="statically">
@@ -72,7 +74,7 @@
   </form>
   <div class="results">
     <h1>Results</h1>
-    <p>Thanks for taking the survey! Here is your suggested programming language: </p>
+    <p>Thanks for taking the survey <span id="userNameOutput"></span>! Here is your suggested programming language: </p>
     <p id="output"></p>
     <button id="refresh" class="button2">Refresh page</button>
   </div>

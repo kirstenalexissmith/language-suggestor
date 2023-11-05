@@ -9,6 +9,7 @@ window.addEventListener("load", function () {
 
 function surveyAnswers(e) {
   e.preventDefault();
+
   const typed = document.querySelector('input[name="typed"]:checked').value;
   const interest = document.querySelector('input[name="interest"]:checked').value;
   const mobile = document.querySelector('input[name="mobile"]:checked').value;
@@ -29,4 +30,7 @@ function surveyAnswers(e) {
     results = "C#(C Sharp)"
   }
   document.getElementById("output").innerText = results
+
+  const userNameInput = document.getElementById("userNameInput").value;
+  document.getElementById("userNameOutput").innerText = userNameInput
 }
