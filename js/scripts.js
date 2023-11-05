@@ -12,16 +12,17 @@ function surveyAnswers(e) {
   const muffin = document.querySelector('input[name="muffin"]:checked').value;
 
   let results;
-  if (typed === "dynamic" && interest === "front" && mobile === "yes" || typed === "dynamic" && interest === "front" && mobile === "no") {
+  if (typed === "dynamically" && interest === "front" && mobile === "yes") {
     results = "JavaScript"
   }
-  else if (typed === "dynamic" && interest === "data" && mobile === "no") {
+  if (typed === "dynamically" && interest === "front" && mobile === "no") {
+    results = "JavaScript"
+  }
+  else if (typed === "dynamically" && interest === "data") {
     results = "Python"
   }
-  else if (typed = "statically") {
+  else if (typed === "statically") {
     results = "C#(C Sharp)"
   }
-
-
   document.getElementById("output").innerText = results
 }
