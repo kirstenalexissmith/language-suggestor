@@ -9,7 +9,8 @@
 * _VS Code_
 * _HTML_
 * _CSS_
-*_JavaScript_
+* _Javascript_
+
 
 ## Description
 
