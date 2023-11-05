@@ -1,12 +1,12 @@
 window.addEventListener("load", function () {
   const form = document.querySelector("form");
-  const refreshBtn = document.getElementById("refresh");
   form.addEventListener("submit", surveyAnswers);
-  refreshBtn.addEventListener("click", function () {
+  const refresh = document.getElementById("refresh");
+  refresh.addEventListener("click", function () {
     location.reload();
   })
 })
-
+console.log(refreshBtn)
 function surveyAnswers(e) {
   e.preventDefault();
   const typed = document.querySelector('input[name="typed"]:checked').value;
