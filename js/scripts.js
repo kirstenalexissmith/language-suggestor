@@ -1,6 +1,10 @@
 window.addEventListener("load", function () {
   const form = document.querySelector("form");
+  const refreshBtn = document.getElementById("refresh");
   form.addEventListener("submit", surveyAnswers);
+  refreshBtn.addEventListener("click", function () {
+    location.reload();
+  })
 })
 
 function surveyAnswers(e) {
