@@ -10,6 +10,13 @@
   font-weight: 700;
 }
 
+.resize {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
 .button1 {
   border-radius: 12px;
   padding: 5px 12px;

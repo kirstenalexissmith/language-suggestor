@@ -26,6 +26,5 @@ _{This webpage provides the user a set of 5 survey questions about themselves an
 
 ## License
 
-[MIT](LICENSE.txt)
-Copyright (c) _2023_ _Kirsten Smith_
-{Refer to LICENSE.txt for more information}
+_[MIT](LICENSE.txt)_
+_Copyright (c) _2023_ _Kirsten Smith_
