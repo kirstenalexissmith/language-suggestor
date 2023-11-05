@@ -6,7 +6,7 @@ window.addEventListener("load", function () {
     location.reload();
   })
 })
-console.log(refreshBtn)
+
 function surveyAnswers(e) {
   e.preventDefault();
   const typed = document.querySelector('input[name="typed"]:checked').value;
