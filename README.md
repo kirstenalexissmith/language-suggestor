@@ -13,11 +13,12 @@
 
 ## Description
 
-_{}_
+_{This webpage provides the user a set of 5 survey questions about themselves and their programming preferences. The user will then answer by clicking on the answer most relevant to them. Once submitted, a result of a suggested programming language will show based off of the users answers. The user then has an option to refresh the page and redo the survey.}_
 
 ## Setup/Installation Requirements
 
-* _
+* _Click provided link which will prompt the link to open the webpage of your preferred browser:http://127.0.0.1:5500/?typed=statically&interest=data&mobile=no&experience=no&muffin=yes_
+
 ## Known Bugs
 
 * No known bugs
